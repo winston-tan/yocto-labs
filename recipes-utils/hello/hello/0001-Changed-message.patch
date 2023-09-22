@@ -1,0 +1,22 @@
+From 23ee61436fe3c3dab6b3f0c15cbea48e1431e085 Mon Sep 17 00:00:00 2001
+From: Winston Tan <wtan@thetanz.com>
+Date: Thu, 21 Sep 2023 14:29:55 +0800
+Subject: [PATCH] Changed message.
+
+---
+ src/hello.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/hello.c b/src/hello.c
+index 453962f..346e77d 100644
+--- a/src/hello.c
++++ b/src/hello.c
+@@ -57,7 +57,7 @@ main (int argc, char *argv[])
+ #endif
+ 
+   /* Having initialized gettext, get the default message. */
+-  greeting_msg = _("Hello, world!");
++  greeting_msg = _("Hello babi, world!");
+ 
+   /* Even exiting has subtleties.  On exit, if any writes failed, change
+      the exit status.  The /dev/full device on GNU/Linux can be used for
